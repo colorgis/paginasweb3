@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagenes/htmlfondo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML & CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+	<!--Seccion Header-->
+
+
+	<header>
+
+		<input type="checkbox" name="" id="toggler">
+		<label for="toggler" class="fas fa-bars"></label>
+
+
+		<a href="#" class="logo">HTML & CSS<span>.</span></a>
+
+		<nav class="navbar">
+		<a href="#home">Home</a>
+		<a href="#historia">Historia</a>
+		<a href="#usos">Usos</a>
+        <a href="#etiquetas">Etiquetas</a>
+		</nav>
+
+    </header>
+
+	<!--Fin Header-->
+
+	<!--Inicia Home-->
+	 <section  class="home" id="home">
+
+		<div class="content">
+			<h3>HTML & CSS</h3>
+			<p>HTML y CSS en realidad no son lenguajes de programación técnica; son solo la estructura de la
+            página y la información de estilo. El HTML es el núcleo de cada página web. HTML significa lenguaje de
+            marcado de hipertexto. "Lenguaje de marcado “el HTML utiliza etiquetas para identificar
+            diferentes tipos de contenido y los fines de cada uno para la página web. CSS no son más que
+            hojas de estilo en cascada.</p>
+			<a href="#tipos" class="btn">Ver más</a>
+            <a href="index.html" class="btn">Regresar</a>
+        </div>
+
+            <div class="image">
+                <img src="imagenes/htmlfondo.png">
+            </div>
+		
+	 </section>
+	<!--Termina Home-->
+
+    <section class="historia" id="historia">
+        <h1 class="heading">Historia</h1>
+        <div class="row">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7OghSdE6gfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+                
+            </div>
+
+            <div class="content">
+                <p>
+                    
+                    <p>El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, investigador del CERN 
+                    (Organización Europea para la Investigación Nuclear) propuso un nuevo sistema de “hipertexto”
+                    para compartir documentos.
+
+                    Tras finalizar el desarrollo de su sistema, Tim Berners-Lee lo presentó a una convocatoria organizada 
+                    para desarrollar un sistema de hipertexto para internet. Después de unir sus fuerzas con el
+                    ingeniero de sistemas Robert Cailliau, presentaron la propuesta ganadora llamada WorldWideWeb (W3). 
+                    El primer documento formal con la descripción de HTML se publicó en 1991 bajo
+                    el nombre “HTML Tags” (Etiquetas HTML) y todavía hoy puede ser consultado en línea a modo de reliquia informática.</p>
+
+                    <p>La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 
+                        Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron 
+                        CSS (Cascading Style Sheets).
+                        En 1995, el W3C decidió apostar por el desarrollo y estandarización de CSS y lo añadió a su grupo de 
+                        trabajo de HTML. A finales de 1996, el W3C publicó la primera recomendación oficial, conocida
+                         como "CSS nivel 1".
+                        A principios de 1997, el W3C decide separar los trabajos del grupo de HTML en tres 
+                        secciones: el grupo de trabajo de HTML, el grupo de trabajo de DOM y el grupo de trabajo de CSS.</p>
+
+
+                </p>
+
+            </div>
+        </div>
+    </section>
+    
+    <main>
+     <section class="contenedor sobre-nosotros" id="usos">
+       		 <h1 class="heading">Usos</h1>
+            <div class="contenedor-sobre-nosotros">
+                <img src="imagenes/htmlimg.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Desarrollo de páginas web.</h3>
+                    <p>HTML se usa mucho para crear páginas que se muestran en la red mundial. Cada página contiene
+                       un conjunto de etiquetas HTML que incluyen hipervínculos que se utilizan para conectarse a otras páginas. 
+                       Cada página que presenciamos, en la red mundial, está escrita con una versión de código HTML.</p>
+                    <h3><span>2</span>Creación de documentos web.</h3>
+                    <p>La creación de documentos en Internet está dominada por HTML y su concepto básico a través de etiqueta y DOM, es decir, modelo de objeto de documento.</p>
+                    <h3><span>3</span>Navegación por internet.</h3>
+                    <p>Esta navegación es posible utilizando el concepto de hipertexto. Básicamente es un texto que se refiere a otras páginas web o texto 
+                        y cuando el usuario hace clic en él, navega al texto o página referenciado.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="contenedor sobre-nosotros" id="usos">
+                   <h1 class="heading">Usos <span>CSS</span></h1>
+               <div class="contenedor-sobre-nosotros">
+                   <img src="imagenes/css.png" alt="" class="imagen-about-us">
+                   <div class="contenido-textos">
+                       <h3><span>1</span>Ordenamiento.</h3>
+                       <p>CSS es uno de los lenguajes más importantes que se utilizan para ordenar las instrucciones referentes a la apariencia.</p>
+                       <h3><span>2</span>Diseño.</h3>
+                       <p>El CSS se encarga de añadir toda la capa de personalización sobre el que la web define su aspecto final.</p>
+                   </div>
+               </div>
+           </section>
+       </main>
+       
+       <section class="etiquetas" id="etiquetas">
+            <h1 class="heading">Etiquetas</h1>
+            <center>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>Etiqueta</th>
+                        <th>Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>html</td>
+                        <td>Indica que es un documento HTML o una página web.</td>
+                    </tr>
+
+                    <tr>
+                        <td>head</td>
+                        <td>Encabezado.</td>
+                    </tr>
+
+                    <tr>
+                        <td>body</td>
+                        <td>Cuerpo.</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>title</td>
+                        <td>El que aparece en la barra de título de la página.</td>
+                    </tr>
+
+                    <tr>
+                        <td>h1-h6</td>
+                        <td>Títulos automáticos.</td>
+                    </tr>
+
+                    <tr>
+                        <td>p</td>
+                        <td>Párrafo.</td>
+                    </tr>
+
+                    <tr>
+                        <td>center</td>
+                        <td>Centrado.</td>
+                    </tr>
+
+                    <tr>
+                        <td>font</td>
+                        <td>Formato del texto.</td>
+                    </tr>
+
+                    <tr>
+                        <td>ul</td>
+                        <td>Lista con viñetas.</td>
+                    </tr>
+
+                    <tr>
+                        <td>table</td>
+                        <td>Tabla.</td>
+                    </tr>
+                    <tr>
+                        <td>br</td>
+                        <td>Salto de línea.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+       </section>
+
+</body>
+</html>
